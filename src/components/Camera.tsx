@@ -160,21 +160,10 @@ export default function Camera({ onCapture, disabled }: CameraProps) {
                     : "border-white/10 hover:border-white/20"
                 }`}
         >
-            <div className="flex flex-col items-center gap-3 text-center">
-                <div
-                    className="w-20 h-20 rounded-2xl flex items-center justify-center
-          bg-gradient-to-br from-[var(--color-pokedex-red)] to-[var(--color-pokedex-red-dark)]
-          shadow-lg shadow-red-500/20"
-                >
-                    <CameraIcon size={36} className="text-white" />
-                </div>
+            <div className="flex flex-col items-center gap-2 text-center mb-4">
                 <h3 className="text-lg font-semibold text-white/90">
-                    Capture or Upload
+                    Identify Pokémon
                 </h3>
-                <p className="text-sm text-white/50 max-w-xs">
-                    Take a photo with your camera or drag & drop an image to detect
-                    objects
-                </p>
             </div>
 
             <div className="flex gap-3">
